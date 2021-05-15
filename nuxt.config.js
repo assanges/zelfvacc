@@ -1,7 +1,10 @@
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
-
+  // GitHub Repository
+  router: {
+    base: '/zelfvacc/',
+  },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'Zelfvacc 自費疫苗地圖',
