@@ -1,4 +1,8 @@
 # Created by .ignore support plugin (hsz.mobi)
+
+# local test file 
+static/hospital.json
+
 ### Node template
 # Logs
 /logs

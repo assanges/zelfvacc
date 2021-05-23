@@ -59,9 +59,8 @@ export default {
     }
   },
   mounted() {
-    const krankenhaeuser = process.env.test
-      ? 'https://gist.githubusercontent.com/assanges/e0b375cc84c2c19b66e939763bef1447/raw/f91ebeeaaa9c6e310d02945a16c10814c192a2f1/zelfvacc-opd.json'
-      : 'http://localhost:3000/hospital.json'
+    const krankenhaeuser =
+      'https://gist.githubusercontent.com/assanges/e0b375cc84c2c19b66e939763bef1447/raw/f91ebeeaaa9c6e310d02945a16c10814c192a2f1/zelfvacc-opd.json'
     axios.get(krankenhaeuser).then((response) => {
       response.data.map((h) =>
         this.markers.push({
