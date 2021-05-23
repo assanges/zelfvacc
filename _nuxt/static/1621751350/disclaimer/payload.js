@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/disclaimer", {data:[{}],fetch:{},mutations:void 0});
