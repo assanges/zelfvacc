@@ -22,7 +22,13 @@
             class="max-w-3xl rounded-lg mb-8 border border-gray-200 shadow-lg"
           >
             <div
-              class="flex flex-row justify-between p-6 bg-white border-b border-gray-200"
+              class="
+                flex flex-row
+                justify-between
+                p-6
+                bg-white
+                border-b border-gray-200
+              "
             >
               <h3 class="text-2xl font-semibold text-gray-800 leading-relaxed">
                 {{ jab.name }}

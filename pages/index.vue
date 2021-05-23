@@ -12,13 +12,27 @@
         >
           <div class="text-center">
             <div
-              class="text-xl tracking-wider text-gray-600 bg-gray-200 bg-opacity-50 space-y-2 py-2"
+              class="
+                text-xl
+                tracking-wider
+                text-gray-600
+                bg-gray-200 bg-opacity-50
+                space-y-2
+                py-2
+              "
             >
               <h3>指揮中心自2021年4月21⽇起開放自費接種疫苗</h3>
               <h3>COVID-19疫苗哪裡打？疫苗副作用有哪些？</h3>
             </div>
             <h2
-              class="my-8 font-black text-3xl tracking-wider text-white md:text-5xl"
+              class="
+                my-8
+                font-black
+                text-3xl
+                tracking-wider
+                text-white
+                md:text-5xl
+              "
             >
               自費接種疫苗資訊一次看
             </h2>
@@ -26,7 +40,19 @@
             <div class="flex justify-center mt-8">
               <NLink
                 to="/jabs"
-                class="px-8 py-2 text-lg font-medium text-white transition-colors duration-300 transform bg-indigo-500 rounded-full hover:bg-indigo-500"
+                class="
+                  px-8
+                  py-2
+                  text-lg
+                  font-medium
+                  text-white
+                  transition-colors
+                  duration-300
+                  transform
+                  bg-indigo-500
+                  rounded-full
+                  hover:bg-indigo-500
+                "
                 >了解更多
               </NLink>
             </div>
@@ -59,7 +85,17 @@
             >
               <div class="flex-shrink-0">
                 <div
-                  class="flex items-center mx-auto justify-center h-12 w-12 rounded-full bg-pink-500 text-white"
+                  class="
+                    flex
+                    items-center
+                    mx-auto
+                    justify-center
+                    h-12
+                    w-12
+                    rounded-full
+                    bg-pink-500
+                    text-white
+                  "
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -100,12 +136,25 @@
           </h2>
 
           <img
-            class="object-cover object-center w-full mt-8 rounded-md shadow h-96"
+            class="
+              object-cover object-center
+              w-full
+              mt-8
+              rounded-md
+              shadow
+              h-96
+            "
             alt="covid-19 vaccine (@hakannural)"
             src="https://images.unsplash.com/photo-1608243499644-c55bd9f2b837?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80"
           />
           <div
-            class="flex flex-wrap lg:max-w-5xl sm:mx-auto mt-16 text-left text-lg"
+            class="
+              flex flex-wrap
+              lg:max-w-5xl
+              sm:mx-auto
+              mt-16
+              text-left text-lg
+            "
           >
             <div
               v-for="(item, index) in info_after_jab"
@@ -150,22 +199,19 @@ export default {
           title: '開放對象',
           description:
             '⑴ 以商務、工作、留學或就醫等人道因素為原則，不限國籍身分別； ⑵ 持有有效居留證件之外籍人士。',
-          d:
-            'M13.586 3.586a2 2 0 112.828 2.828l-.793.793-2.828-2.828.793-.793zM11.379 5.793L3 14.172V17h2.828l8.38-8.379-2.83-2.828z',
+          d: 'M13.586 3.586a2 2 0 112.828 2.828l-.793.793-2.828-2.828.793-.793zM11.379 5.793L3 14.172V17h2.828l8.38-8.379-2.83-2.828z',
         },
         {
           title: '所需費用',
           description:
             '自費接種者需自付醫院收取之掛號費、診察費、注射費等；免收疫苗費用。實際費用請洽詢各醫院。',
-          d:
-            'M4 4a2 2 0 00-2 2v4a2 2 0 002 2V6h10a2 2 0 00-2-2H4zm2 6a2 2 0 012-2h8a2 2 0 012 2v4a2 2 0 01-2 2H8a2 2 0 01-2-2v-4zm6 4a2 2 0 100-4 2 2 0 000 4z',
+          d: 'M4 4a2 2 0 00-2 2v4a2 2 0 002 2V6h10a2 2 0 00-2-2H4zm2 6a2 2 0 012-2h8a2 2 0 012 2v4a2 2 0 01-2 2H8a2 2 0 01-2-2v-4zm6 4a2 2 0 100-4 2 2 0 000 4z',
         },
         {
           title: '異地接種',
           description:
             '⺠眾可依需求，選定不同旅醫合約醫院之旅遊醫學門診，接種前後兩劑之COVID-19疫苗。',
-          d:
-            'M4 4a2 2 0 012-2h8a2 2 0 012 2v12a1 1 0 110 2h-3a1 1 0 01-1-1v-2a1 1 0 00-1-1H9a1 1 0 00-1 1v2a1 1 0 01-1 1H4a1 1 0 110-2V4zm3 1h2v2H7V5zm2 4H7v2h2V9zm2-4h2v2h-2V5zm2 4h-2v2h2V9z',
+          d: 'M4 4a2 2 0 012-2h8a2 2 0 012 2v12a1 1 0 110 2h-3a1 1 0 01-1-1v-2a1 1 0 00-1-1H9a1 1 0 00-1 1v2a1 1 0 01-1 1H4a1 1 0 110-2V4zm3 1h2v2H7V5zm2 4H7v2h2V9zm2-4h2v2h-2V5zm2 4h-2v2h2V9z',
         },
       ],
       info_after_jab: [

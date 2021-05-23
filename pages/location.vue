@@ -24,7 +24,14 @@
           <div
             v-for="ort in krankenhaus"
             :key="ort.id"
-            class="max-w-4xl rounded-lg p-6 mb-4 border border-gray-200 shadow-md"
+            class="
+              max-w-4xl
+              rounded-lg
+              p-6
+              mb-4
+              border border-gray-200
+              shadow-md
+            "
           >
             <!-- eslint-disable vue/no-v-html -->
             <h5
@@ -34,7 +41,19 @@
             <p class="my-2" v-html="ort.opd"></p>
             <p class="my-3">
               <span
-                class="px-3 py-px text-sm font-semibold tracking-wider text-indigo-700 uppercase rounded-full border-2 border-indigo-600 hover:border-blue-800 hover:text-blue-800"
+                class="
+                  px-3
+                  py-px
+                  text-sm
+                  font-semibold
+                  tracking-wider
+                  text-indigo-700
+                  uppercase
+                  rounded-full
+                  border-2 border-indigo-600
+                  hover:border-blue-800
+                  hover:text-blue-800
+                "
                 v-html="ort.city"
               >
               </span>
@@ -44,7 +63,23 @@
               <p class="mb-2" v-html="ort.tel"></p>
             </div>
             <a
-              class="my-2 px-6 py-2 rounded-full font-semibold tracking-wider bg-pink-500 text-sm text-white outline-none focus:outline-none hover:shadow-sm hover:bg-pink-600 transition duration-200 ease-in-out"
+              class="
+                my-2
+                px-6
+                py-2
+                rounded-full
+                font-semibold
+                tracking-wider
+                bg-pink-500
+                text-sm text-white
+                outline-none
+                focus:outline-none
+                hover:shadow-sm
+                hover:bg-pink-600
+                transition
+                duration-200
+                ease-in-out
+              "
               :href="ort.website"
               >査詢預約情況</a
             >

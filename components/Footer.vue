@@ -14,7 +14,14 @@
         </ul>
       </div>
       <div
-        class="md:flex my-6 text-sm text-gray-500 leading-tight place-items-center md:space-x-6"
+        class="
+          md:flex
+          my-6
+          text-sm text-gray-500
+          leading-tight
+          place-items-center
+          md:space-x-6
+        "
       >
         <a
           v-for="(item, index) in footer_externals"

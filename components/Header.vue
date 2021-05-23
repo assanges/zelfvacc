@@ -2,12 +2,28 @@
   <div>
     <header class="bg-green-400">
       <nav
-        class="px-6 py-4 mx-auto md:flex md:max-w-4xl md:justify-between md:items-center"
+        class="
+          px-6
+          py-4
+          mx-auto
+          md:flex
+          md:max-w-4xl
+          md:justify-between
+          md:items-center
+        "
       >
         <div class="flex items-center justify-between">
           <NLink
             to="/"
-            class="text-xl font-bold text-white transition-colors duration-300 transform md:text-3xl"
+            class="
+              text-xl
+              font-bold
+              text-white
+              transition-colors
+              duration-300
+              transform
+              md:text-3xl
+            "
             >Zelfvacc
           </NLink>
 
@@ -31,18 +47,49 @@
         <!-- Mobile Menu open: "block", Menu closed: "hidden" -->
         <div
           :class="isOpen ? 'flex' : 'hidden'"
-          class="flex-col mt-4 space-y-4 md:flex md:space-y-0 md:flex-row md:items-center md:space-x-10 md:mt-0"
+          class="
+            flex-col
+            mt-4
+            space-y-4
+            md:flex
+            md:space-y-0
+            md:flex-row
+            md:items-center
+            md:space-x-10
+            md:mt-0
+          "
         >
           <NLink
             v-for="(link, index) in header"
             :key="index"
-            class="text-sm font-medium text-gray-900 transition-colors duration-300 transform hover:text-indigo-700"
+            class="
+              text-sm
+              font-medium
+              text-gray-900
+              transition-colors
+              duration-300
+              transform
+              hover:text-indigo-700
+            "
             :to="link.route"
             >{{ link.title }}
           </NLink>
 
           <a
-            class="px-4 py-1 text-sm font-medium text-center text-white transition-colors duration-300 transform bg-green-800 rounded-full hover:bg-indigo-600 hover:text-white"
+            class="
+              px-4
+              py-1
+              text-sm
+              font-medium
+              text-center text-white
+              transition-colors
+              duration-300
+              transform
+              bg-green-800
+              rounded-full
+              hover:bg-indigo-600
+              hover:text-white
+            "
             href="http://at.cdc.tw/o65opy"
             >TWCDC 疾管署 <Extlink />
           </a>
