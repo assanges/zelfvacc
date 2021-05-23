@@ -2,13 +2,14 @@
   <div class="container mx-auto md:py-16">
     <div class="max-w-5xl px-6 py-8 mx-auto text-center">
       <h2 class="text-4xl font-semibold text-gray-800 pb-8">常見問題 FAQ</h2>
-      <div class="md:flex md:justify-between">
-        <p class="text-sm text-gray-500">
+      <div class="md:flex md:justify-between mx-2">
+        <h5 class="text-sm text-gray-500">
           摘錄自
           <a class="underline" href="http://at.cdc.tw/B42hEv/"
             >http://at.cdc.tw/B42hEv</a
           >
-        </p>
+        </h5>
+        <h5 class="text-sm text-gray-400">最後整理：2021-05-20</h5>
       </div>
       <div class="flex flex-wrap lg:max-w-3xl sm:mx-auto mt-16 text-left">
         <div
@@ -46,7 +47,7 @@ export default {
         },
         {
           question:
-            '目前我國疫苗接種計畫將使用之AstraZeneca      COVID-19疫苗內含哪些成分?有佐劑或防腐劑嗎? ',
+            '目前我國疫苗接種計畫將使用之AstraZeneca COVID-19疫苗內含哪些成分?有佐劑或防腐劑嗎? ',
           answer:
             '目前我國使用的AstraZeneca COVID-19疫苗，根據其仿單記載，每0.5mL內含成分包括不低於 2.5 × 10的8次方個感染單位 （Inf.U）之黑猩猩腺病毒（ChAdOx1）顆粒、鈉（含量低於 1 mmol）、乙醇2mg與賦形劑，並不含佐劑與防腐劑。',
         },
@@ -67,8 +68,7 @@ export default {
         },
         {
           question: '接種COVID-19疫苗要帶什麼證件?',
-          answer:
-            '公費COVID-19疫苗實施對象接種所需證件，依其所屬類別，略有差異，詳請參閱「110年COVID-19疫苗接種計畫」之「附件6 COVID-19疫苗接種對象接種所需證件及費用」。',
+          answer: '接種疫苗需要攜帶相關證件，如健保卡、身分證、職員證。',
         },
         {
           question: '接種COVID-19疫苗後仍可能會感染COVID-19嗎？',

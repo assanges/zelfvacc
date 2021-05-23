@@ -13,7 +13,7 @@
       <l-marker
         v-for="marker in markers"
         :key="marker.id"
-        :lat-lng.sync="marker.position"
+        :lat-lng.sync="marker.coord"
         :icon="marker.icon"
       >
         <l-popup :content="marker.info" />
@@ -59,13 +59,13 @@ export default {
     }
   },
   mounted() {
-    const location = process.env.test
+    const krankenhaeuser = process.env.test
       ? 'https://gist.githubusercontent.com/assanges/e0b375cc84c2c19b66e939763bef1447/raw/f91ebeeaaa9c6e310d02945a16c10814c192a2f1/zelfvacc-opd.json'
       : 'http://localhost:3000/hospital.json'
-    axios.get(location).then((response) => {
+    axios.get(krankenhaeuser).then((response) => {
       response.data.map((h) =>
         this.markers.push({
-          position: [h.lat, h.lng],
+          coord: [h.lat, h.lng],
           info:
             '<div class="text-center space-y-2"><div class="text-sm font-medium text-green-600">' +
             h.hospital +
