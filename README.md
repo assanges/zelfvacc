@@ -1,4 +1,5 @@
 # zelfvacc
+This repo is intented to be used in COCSUP2021 OSM x Wikidata session talk, which is now archived.
 
 ## Build Setup
 
